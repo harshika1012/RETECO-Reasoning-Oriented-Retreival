@@ -1,0 +1,24 @@
+# Regenerable outputs (rebuild with the step scripts)
+cache/
+logs/
+runs/
+runs_*/
+models/
+
+# Data and the official starter kit are downloaded separately (see README); never commit them
+reteco_data/
+RETECO/
+
+# Python / editor
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Model weights and large arrays, wherever they end up
+*.safetensors
+*.bin
+*.pt
+*.npy
+*.pkl

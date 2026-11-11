@@ -1,0 +1,4 @@
+ndcg10,path,run,subset,base_ci_high,base_ci_low,base_diff,base_p,prev_ci_high,prev_ci_low,prev_diff,prev_p
+0.231,runs/step9_baseline,baseline,tune,,,,,,,,
+0.2897,runs/step10_ft,finetuned,tune,8.29,3.42,5.87,0.0,8.23,3.41,5.87,0.0
+0.2363,runs/ce_BAAI__bge-reranker-v2-m3_L512,ce-v2m3,tune,2.95,-1.84,0.53,0.6822,-2.49,-8.25,-5.34,0.0

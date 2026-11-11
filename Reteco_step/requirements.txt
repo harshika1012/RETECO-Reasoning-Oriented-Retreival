@@ -1,0 +1,8 @@
+# Python 3.12 (conda env "reteco312"). Install torch first, from the CUDA 12.6 index:
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu126
+# (cu126 still supports the GTX 1080 Ti / sm_61 nodes; cu128+ builds do not.)
+numpy
+scipy
+nltk
+pytrec_eval
+sentence-transformers==6.1.0
